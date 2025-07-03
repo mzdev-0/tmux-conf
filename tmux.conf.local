@@ -53,13 +53,13 @@ tmux_conf_new_window_reconnect_ssh=false
 #   - true (default)
 #   - false
 #   - disabled (do not modify split-window bindings)
-tmux_conf_new_pane_retain_current_path=true
+tmux_conf_new_pane_retain_current_path=false
 
 # new pane tries to reconnect ssh sessions, possible values are:
 #   - true
 #   - false (default)
 #   - disabled (do not modify split-window bindings)
-tmux_conf_new_pane_reconnect_ssh=false
+tmux_conf_new_pane_reconnect_ssh=true
 
 
 # -- display -------------------------------------------------------------------
@@ -367,7 +367,7 @@ tmux_conf_theme_clock_style="24"
 #   - false (default)
 #   - disabled
 # on Linux, this requires xsel, xclip or wl-copy
-tmux_conf_copy_to_os_clipboard=false
+tmux_conf_copy_to_os_clipboard=true
 
 
 # -- urlscan -------------------------------------------------------------------
