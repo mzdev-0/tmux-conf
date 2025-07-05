@@ -53,7 +53,7 @@ tmux_conf_new_window_reconnect_ssh=false
 #   - true (default)
 #   - false
 #   - disabled (do not modify split-window bindings)
-tmux_conf_new_pane_retain_current_path=false
+tmux_conf_new_pane_retain_current_path=true
 
 # new pane tries to reconnect ssh sessions, possible values are:
 #   - true
